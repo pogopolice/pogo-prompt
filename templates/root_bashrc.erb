@@ -11,5 +11,5 @@ if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
 
-export PS1="\\[\\e[1;31m\\][\\u@\\h \\W]\\$\\[\\e[0m\\] "
-export PS1="<%= @f_red %>[\u@\h \W]#<%= @f_reset %>"
+#export PS1="\\[\\e[1;31m\\][\\u@\\h \\W]\\$\\[\\e[0m\\] "
+export PS1="<%= @f_red %>[\u@\h \W]# <%= @f_reset %>"
